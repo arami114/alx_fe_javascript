@@ -207,3 +207,6 @@ if (lastQuote) {
 
 syncQuotes();
 setInterval(syncQuotes, 60000);
+async function fetchQuotesFromServer() {
+  await syncQuotes();
+}
