@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+section {
+  align-items: center;
+  text-align: center;
+  border: 1px solid;
+  padding: 20px;
+  width: 500px;
+  height: auto;
+}
+
+div{
+    padding: 10px;
+}
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid;
+}
+input{
+    margin: 5px;
+}
